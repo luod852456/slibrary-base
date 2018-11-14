@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">@color/theme_backgroud</color>
+    <color name="colorPrimaryDark">@color/theme_backgroud</color>
+    <color name="colorAccent">@color/theme_backgroud</color>
+    <color name="select_color">#33000000</color>
+
+    <color name="title_bg">#178DD1</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_">#00FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black3_80">#CC333333</color>
+    <color name="black_50">#7F000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_line">#f5f5f5</color>
+    <color name="black_line_f6">#f6f6f6</color>
+    <color name="white">#ffffff</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_94">#F0FFFFFF</color>
+    <color name="white_30">#4CFFFFFF</color>
+    <color name="white_50">#7FFFFFFF</color>
+    <color name="black_30">#4C000000</color>
+    <color name="black30">#FF303030</color>
+    <color name="red_m_b">#ff3366</color>
+    <color name="red">#fd5d61</color>
+    <color name="orange">#FFFF9900</color>
+    <color name="xncs_btn">#73A154</color>
+    <color name="snsl_sp">#30000000</color>
+    <color name="et_hint">#C0C0C0</color>
+    <color name="grey_back">#C9C9C9</color>
+    <color name="grey_back_fa">#FAFAFA</color>
+    <color name="gray1">#666666</color>
+    <color name="gray2">#f0f0f0</color>
+    <color name="green_dark">#FF0ECD42</color>
+    <color name="green">#FF00FF00</color>
+    <color name="green_light">#FF00F767</color>
+    <color name="blue_dark">#FF5AC9DF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="blue_light">#FF00FFFF</color>
+    <color name="blue_edit">#FF049BCD</color>
+    <color name="blue_line">#FFB1E2FF</color>
+    <color name="blue_178ed2">#FF178ed2</color>
+    <color name="blue_gzdw">#4074E1</color>
+    <color name="gray4">#bfbfbf</color>
+    <color name="white1">#fbfbfb</color>
+    <color name="grey5">#E6E6E6</color>
+    <color name="child">#F5F5DC</color>
+    <color name="white_d1">#D1D1D1</color>
+
+    <color name="yellow">#FFFFFF00</color>
+    <color name="yellow_dark">#FFF2EF04</color>
+    <color name="yellow_light">#FFcc66</color>
+    <color name="violet_light">#cc99ff</color>
+
+    <color name="gray_dark">#FF4F6370</color>
+    <color name="gray">#888888</color>
+    <color name="gray_2">#FF807E7E</color>
+    <color name="gray_light">#FFA1A1A1</color>
+    <color name="gray3">#f5f5f5</color>
+    <color name="gray_background">#FFE5E5E5</color>
+    <color name="gray_line">#FFB0B0B0</color>
+    <color name="gray_eb">#FFEBEBEB</color>
+
+    <color name="signature">#F4F5F6</color>
+
+    <color name="rb_sfgc">#33B5E6</color>
+    <color name="progress_darkblue">#FF165CBC</color>
+    <color name="progress_darkgray">#FF747674</color>
+    <color name="progress_lightblue">#FF85B0E9</color>
+    <color name="progress_lightgray">#FFBEBEBE</color>
+    <color name="red_1">#fb0101</color>
+    <color name="black_60">#99000000</color>
+
+    <color name="color_94">#949494</color>
+    <color name="color_98">#989898</color>
+    <color name="color_white_40">#28FFFFFF</color>
+    <color name="no_hint_color">#98A8D2</color>
+    <color name="title_lightgray">#A2B7EE</color>
+    <color name="title_green">#45c01a</color>
+    <color name="title_blue">#178ed2</color>
+
+    <color name="tablayout_rg">#F8F8F8</color>
+    <color name="tab_tv_down">#FFFFFF</color>
+    <color name="tab_tv_up">#3789ED</color>
+    <!--  awing -->
+    <color name="activity_background">#e5e5e5</color>
+    <color name="cell_detail_simple_txtcolor">#7f7f7f</color>
+    <color name="cell_detail_title_backcolor">#46abe7</color>
+    <color name="cell_detail_content_backcolor">#e6f6ff</color>
+    <color name="cell_detail_content_txtcolor">#3e3e3e</color>
+    <color name="cell_detail_line_color">#d4d4d4</color>
+    <color name="cell_search_color">#3d6dcc</color>
+
+    <color name="rw_edit_detai_prompt">#9a9a9a</color>
+
+    <color name="white_btn_down">#C4C4C4</color>
+    <!-- 深黑 -->
+    <color name="black_half">#333333</color>
+    <!-- 微黑 -->
+    <color name="black_small">#666666</color>
+    <!-- 浅黑 -->
+    <color name="red_small">#FF7062</color>
+
+    <color name="hind_small">#C5C5C5</color>
+    <color name="black_micro_51">#515151</color>
+
+    <color name="blue_middle">#005faf</color>
+
+    <color name="black_micro_22">#222222</color>
+    <color name="black_micro_33">#333333</color>
+    <color name="black_micro_66">#666666</color>
+    <color name="black_micro_77">#777777</color>
+    <color name="black_micro_88">#888888</color>
+    <color name="black_micro">#999999</color>
+    <color name="black_micro_aa">#AAAAAA</color>
+    <color name="black_micro_cc">#CCCCCC</color>
+    <color name="black_micro_dd">#DDDDDD</color>
+    <color name="black_micro_ce">#CECECE</color>
+    <!-- 滑动菜单颜色 -->
+    <color name="md_defaultBackground">#FF555555</color>
+
+    <color name="menu_bg">#0471B4</color>
+    <color name="menu_bg_left">#0360A6</color>
+    <color name="menu_tv_english">#92C9F0</color>
+
+    <color name="circle_img">#FFFFFF</color>
+
+    <color name="translucent_background">#80000000</color>
+    <color name="dialog_net_bg">#323333</color>
+
+    <color name="translucent">#00000000</color>
+
+    <color name="theme_green">#1CCEC2</color>
+    <color name="theme_green_half">#601CCEC2</color>
+    <color name="theme_red">#FD5D61</color>
+    <color name="theme_red_30">#4CFD5D61</color>
+    <color name="theme_red_10">#19FD5D61</color>
+    <color name="theme_red_half">#60f27478</color>
+    <color name="theme_blue">#5CD9FE</color>
+    <color name="theme_blue_half">#605CD9FE</color>
+
+    <color name="search_hind_color">#fdefbe</color>
+    <color name="search_hind_backgroud">#d39715</color>
+    <color name="training_tool_backgroud">#f2f2f2</color>
+    <color name="theme_backgroud">#FFfdb928</color>
+
+    <drawable name="menu_bg_left">#0360A6</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="radio_btn_dom">#178ed2</drawable>
+
+    <color name="percent_pink">#fff0f0</color>
+    <color name="percent_yellow">#ffd200</color>
+    <color name="percent_pink_red">#ff5656</color>
+    <color name="percent_red">#fa4040</color>
+    <color name="percent_deep_red">#f60157</color>
+    <color name="percent_gray">#d3dae0</color>
+    <color name="black_grey">#616372</color>
+    <color name="light_grey">#b0b1b8</color>
+
+    <color name="color_fd5d61">#fd5d61</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_f08080">#f08080</color>
+    <color name="color_f0e0e0">#f0e0e0</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_b">#BBBBBB</color>
+    <color name="color_e">#EEEEEE</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_f7f5f6">#f7f5f6</color>
+    <color name="color_f3">#f3f3f3</color>
+    <color name="color_f9">#f9f9f9</color>
+    <color name="color_a3">#a3a3a3</color>
+    <color name="color_e4">#e4e4e4</color>
+    <color name="color_d2">#d2d2d2</color>
+    <color name="color_d1">#d1d1d1</color>
+    <color name="color_ff625c">#ff625c</color>
+    <color name="color_f66e60">#f66e60</color>
+    <color name="color_ff4ff1b6">#ff4ff1b6</color>
+    <color name="color_ff0077ff">#ff0077ff</color>
+    <color name="color_edcd00">#edcd00</color>
+    <color name="color_fffadf">#fffadf</color>
+    <color name="color_fff2d6">#fff2d6</color>
+    <color name="color_db">#dbdbdb</color>
+    <color name="color_9bbaff_80">#CC9bbaff</color>
+
+    <color name="binzhuangtu_blue">#5656b6</color>
+    <color name="binzhuangtu_green">#9ec154</color>
+    <color name="binzhuangtu_red">#dd5867</color>
+
+</resources>

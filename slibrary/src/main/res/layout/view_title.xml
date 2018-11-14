@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_title_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/px108dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:paddingLeft="@dimen/px30dp"
+        android:paddingRight="@dimen/px30dp" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:minWidth="@dimen/px0dp"
+        android:minHeight="@dimen/px0dp"
+        android:paddingLeft="@dimen/px30dp"
+        android:paddingRight="@dimen/px30dp"
+        android:textColor="@color/black_micro_33"
+        android:textSize="@dimen/px28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/px108dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:paddingLeft="@dimen/px30dp"
+        android:paddingRight="@dimen/px30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/px98dp"
+        android:paddingTop="@dimen/px24dp"
+        android:paddingRight="@dimen/px98dp"
+        android:paddingBottom="@dimen/px24dp"
+        android:textColor="@color/black_micro_33"
+        android:textSize="@dimen/px36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@color/color_d2"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</FrameLayout>
