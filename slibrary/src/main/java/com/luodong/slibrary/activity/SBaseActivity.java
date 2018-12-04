@@ -5,8 +5,10 @@ import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -122,6 +124,16 @@ public abstract class SBaseActivity extends AppCompatActivity implements OnClick
      */
     public boolean isOrientationPortrait() {
         return Configuration.ORIENTATION_PORTRAIT == getResources().getConfiguration().orientation;
+    }
+
+    /**
+     * 状态栏背景色
+     * @param colorId
+     */
+    protected void setStatusBarColor(int colorId) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(ContextCompat.getColor(getApplication(),colorId));
+        }
     }
 
     /**
