@@ -164,6 +164,12 @@ public class SBaseDialog extends Dialog implements View.OnClickListener, DialogI
         return this;
     }
 
+    public void showAlpha() {
+        setGrativity(Gravity.CENTER);
+        setAnimations(R.style.anim_alpha_alpha);
+        show();
+    }
+
     public void showTop() {
         setGrativity(Gravity.TOP);
         setAnimations(R.style.anim_top_top);
