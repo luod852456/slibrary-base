@@ -176,10 +176,11 @@ public abstract class SSelectedAdapter<T extends SSelectable> extends SSimpleAda
     /**
      * 清空所有选项
      */
-    private void cleanAllSelected() {
+    public void cleanAllSelected() {
         for (T model : getList()) {
             model.setSelected(false);
         }
+        notifyDataSetChanged();
     }
 
 
@@ -190,6 +191,7 @@ public abstract class SSelectedAdapter<T extends SSelectable> extends SSimpleAda
         for (T model : getList()) {
             model.setSelected(true);
         }
+        notifyDataSetChanged();
     }
 
 }
