@@ -9,6 +9,10 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import com.luodong.slibrary.activity.SBaseActivity;
+import com.luodong.slibrary.event.SBaseEvent;
+import com.luodong.slibrary.manager.SEventManager;
+
+import org.greenrobot.eventbus.Subscribe;
 
 /**
  * 如果手动的new对象的话Context必须传入Activity对象
@@ -98,5 +102,41 @@ public class SAppView extends FrameLayout implements View.OnClickListener {
         if (getBaseActivity() != null) {
             getBaseActivity().dismissProgressDialog();
         }
+    }
+
+    public void registerEventBus() {
+        /**
+         * 注册EventBus
+         */
+        SEventManager.register(this);
+    }
+
+    public void unregisterEventBus() {
+        /**
+         * 注销EventBus
+         */
+        SEventManager.unregister(this);
+    }
+
+    @Override
+    protected void onAttachedToWindow() {
+        registerEventBus();
+        super.onAttachedToWindow();
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        unregisterEventBus();
+        super.onDetachedFromWindow();
+    }
+
+    /**
+     * EventBus注册就必须要有回调函数
+     *
+     * @param event
+     */
+    @Subscribe
+    public void onEvent(SBaseEvent event) {
+
     }
 }
