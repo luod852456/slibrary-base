@@ -63,9 +63,37 @@ public abstract class SStateLayout<T extends SBaseStateView, D extends SBaseStat
         return mContentView;
     }
 
-    protected abstract T getEmptyView();
+    public T getEmptyView() {
+        if (mEmptyView == null) {
+            mEmptyView = addEmptyView();
+            addView(mEmptyView);
+            hideView(mEmptyView);
+        }
+        return mEmptyView;
+    }
 
-    protected abstract D getErrorView();
+    public D getErrorView() {
+        if (mErrorView == null) {
+            mErrorView = addErrorView();
+            addView(mErrorView);
+            hideView(mErrorView);
+        }
+        return mErrorView;
+    }
+
+    /**
+     * 实现自定义空白页面
+     *
+     * @return
+     */
+    protected abstract T addEmptyView();
+
+    /**
+     * 实现自定义错误页面
+     *
+     * @return
+     */
+    protected abstract D addErrorView();
 
     public void setEmptyView(T emptyView) {
         mEmptyView = emptyView;
@@ -98,15 +126,7 @@ public abstract class SStateLayout<T extends SBaseStateView, D extends SBaseStat
             throw new IllegalArgumentException("SStateLayout can only add one child");
         }
         setContentView(getChildAt(0));
-        onAfterFinishInflate();
     }
-
-    /**
-     * 自定义状态View在这个方法中设置
-     * getEmptyView().setText();
-     * getEmptyView().setImageResource();
-     */
-    protected abstract void onAfterFinishInflate();
 
     /**
      * 更新view状态
