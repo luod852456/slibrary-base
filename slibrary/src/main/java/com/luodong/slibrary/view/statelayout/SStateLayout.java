@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
+
 public abstract class SStateLayout<T extends SBaseStateView, D extends SBaseStateView> extends FrameLayout {
 
     protected View mContentView;
