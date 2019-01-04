@@ -109,13 +109,13 @@ public class STitle extends LinearLayout implements OnClickListener {
     }
 
     public void setTitleText(String s) {
-        if (!TextUtils.isEmpty(s)) {
+        if (s != null) {
             getTitleTextView().setText(s);
         }
     }
 
     public void setRightText(String s) {
-        if (!TextUtils.isEmpty(s)) {
+        if (s != null) {
             getRightTextView().setText(s);
         }
     }
